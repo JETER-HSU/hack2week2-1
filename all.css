@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -------------------------------------- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+}
+
+.banner {
+    background-image: url(/img/banner.png);
+    height: 100vh;
+    background-position: 0,0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h1 {
+    font-size: 80px;
+    line-height: 106px;
+    font-weight: 900;
+}
+.banner span {
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 700;
+}
+.banner p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.banner-content {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.banner-icon {
+    display: flex;
+}
+.banner-icon li {
+    padding-right: 16px;
+}
+
+.about {
+    text-align: center;
+}
+.about img {
+    width: 384px;
+    height: 384px;
+}
+.about li {
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 700;
+}
+.about p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.about li:nth-child(4) {
+    border-bottom: 1px solid black;
+    width: 384px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+.about li div {
+    border-radius: 50%;
+    background: #891818;
+    margin-right: 16px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+}
+.brand {
+    background-color: #000;
+    text-align: center;
+    color: white;
+    padding-bottom: 160px;
+}
+.brand  li {
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 500;
+}
+.brand p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.brand h2 {
+    padding-top: 56px;
+}
+.brand-image-two {
+    display: flex;
+    justify-content: center;
+    
+}
+.brand-image-two li {
+    padding-right: 24px;
+}
+.brand img {
+    width: 792px;
+    height: 416px;
+}
+.brand-image-two img {
+    width: 588px;
+    height: 416px;
+}
+.other {
+    text-align: center;
+
+}
+.other p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.other-image-three img {
+    width: 384px;
+    height: 528px;
+}
+.other-image-two img {
+    width: 588px;
+    height: 424px;
+}
+.other-image-three p, .other-image-two p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-top: 16px;
+}
+.other-image-three, .other-image-two {
+    display: flex;
+    justify-content: center;
+}
+.other-image-three li, .other-image-two li {
+    padding-right: 24px;
+} 
+.contact {
+    background-color: #000;
+    text-align: center;
+    color: white;
+    padding-bottom: 64px;
+}
+.contact h2 {
+    padding-top: 64px;
+}
+.contact li {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+---------------------------------------
+
+.pt-4 {
+    margin-top: 4px;
+}
+.pt-8 {
+    padding-top: 4px;
+}
+.mt-4 {
+    margin-top: 4px;
+}
+.mt-8 {
+    margin-top: 8px;
+}
+.mt-12 {
+    margin-top: 12px;
+}
+.mt-16 {
+    margin-top: 16px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-24 {
+    margin-top: 24px;
+}
+.mt-28  {
+    margin-top: 28px;
+}
+.mt-32 {
+    margin-top: 32px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-48 {
+    margin-top: 48px;
+}
+.mt-56 {
+    margin-top: 56px;
+}
+.mt-68 {
+    margin-top: 68px;
+}
+.mt-144 {
+    margin-top: 144px;
+}
